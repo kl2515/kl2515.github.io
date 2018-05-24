@@ -1,0 +1,59 @@
+/* Katherine Lin Portfolio CSS */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i|Open+Sans+Condensed:300|Source+Sans+Pro:300|Tajawal:400,700');
+
+body {
+	margin: 0;
+	background-color: #fffbfa;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-box {
+	margin-top: 150px;
+	margin-left: 50px;
+}
+
+.title-name {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 54px;
+	color: #232323;
+	font-weight: 400;
+	font-style: italic;
+	margin: 0;
+}
+
+.title-sub {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #3a3a3a;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.project-title {
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+    margin-top: 40px;
+}
+
+li {
+	list-style: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #303030;
+}
+
+.modal {
+	display: none;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 340px) {
+    .main-box {
+		margin-top: 100px;
+	    margin-left: 40px;
+	}
+}
