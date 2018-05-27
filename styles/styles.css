@@ -154,3 +154,8 @@ li:hover {
 	    margin-left: 40px;
 	}
 }
+@media screen and (max-width: 400px) {
+	.modal {
+		padding-top: 50px;
+	}
+}
